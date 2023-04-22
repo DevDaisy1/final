@@ -1,4 +1,3 @@
-
 td {
   width: 30px;
   height: 30px;
@@ -11,104 +10,109 @@ button {
 }
 
 .path {
-  background-color:white;
+  background-color: white;
 }
 
-.impassable{
-  background-color:red;
+.impassable {
+  background-color: red;
 }
 
 
 
 
 body {
-background: #FFF;
-color: #000;
-font-family:'Times New Roman', Times, serif;
-font-size: 50px;
-/* height: 800px; */
+  background: #FFF;
+  color: #000;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+  /* height: 800px; */
 }
 
-#puw{
-float: left; 
-width: 50px;
-height: 50px;
-}
-#mx{
-top: 128%;
-width: 80px;
-height: 35px;
-left: 687px;
-position: absolute;
-}
-#run{
-top: 135%;
-width: 50px;
-height: 50px;
-left: 700px;
-position: absolute;
+#puw {
+  float: left;
+  width: 50px;
+  height: 50px;
 }
 
-#mee{
-display: block;
-/* margin: 0 auto; */
-/* display: inline-table; */
-background-color: blueviolet;
-/* height: 620px; */
-left: 20%;
-position: absolute;
-top: 158%;
-/* text-align: center; */
-align-content: center;
-align-content: center;
-/* right: 100%; */
+#mx {
+  top: 128%;
+  width: 80px;
+  height: 35px;
+  left: 687px;
+  position: absolute;
 }
-#text{
-top: 120%;
-width: 500px;
-height: 150px;
-left: 550px;
-position: absolute;
+
+#run {
+  top: 135%;
+  width: 50px;
+  height: 40px;
+  left: 700px;
+  position: absolute;
+}
+
+#mee {
+  display: block;
+  /* margin: 0 auto; */
+  /* display: inline-table; */
+  background-color: blueviolet;
+  /* height: 620px; */
+  left: 20%;
+  position: absolute;
+  top: 158%;
+  /* text-align: center; */
+  align-content: center;
+  align-content: center;
+  /* right: 100%; */
+}
+
+#text {
+  top: 120%;
+  width: 500px;
+  height: 150px;
+  left: 550px;
+  position: absolute;
 }
 
 #container {
-margin: auto auto;
-text-align: center;
-width: 100%;
-height: 80px;
+  margin: auto auto;
+  text-align: center;
+  width: 100%;
+  height: 80px;
 
 }
 
-#picture{
-width: 100%;
-height: 425px;
+#picture {
+  width: 100%;
+  height: 425px;
 }
-#sweet{
-width: 800px;
-height: 200px;
-left: 350px;
-text-align: center;
-position: absolute;
+
+#sweet {
+  width: 800px;
+  height: 200px;
+  left: 350px;
+  text-align: center;
+  position: absolute;
 }
 
 #content {
-background: #DCDCDC;
-float: center;
-width: 100%;
-height: 100%;
+  background: #DCDCDC;
+  float: center;
+  width: 100%;
+  height: 100%;
 }
 
 
 #footer {
-position: absolute;
-background: #436ed2;
-width: 100%;
-height: 100px;
-top: 290%;
-display: block;
-/* margin: 0 auto; */
+  position: absolute;
+  background: #436ed2;
+  width: 100%;
+  height: 100px;
+  top: 290%;
+  display: block;
+  /* margin: 0 auto; */
 }
-#my{
+
+#my {
   position: absolute;
   /* scroll-margin-left: inherit; */
   left: 650px;
