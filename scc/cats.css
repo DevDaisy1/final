@@ -1,0 +1,304 @@
+/*обнуление стилей*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100px;
+    font-style: 100px;
+    line-height: 1;
+    font-style: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*конец обнуления*/
+h1 {
+    position: absolute;
+    width: 188px;
+    height: 56px;
+    left: 159px;
+    top: 39px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+h3 {
+    position: absolute;
+    width: 784px;
+    height: 38px;
+    left: 159px;
+    top: 102px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    /* identical to box height */
+}
+
+#cat {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.headd {
+    position: absolute;
+    width: 100%;
+    height: 167px;
+    left: 0px;
+    top: 0px;
+
+    background: #A20D0D;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.menu li {
+    display: inline;
+    margin-right: -4px;
+
+
+}
+
+ul.menu a {
+    width: 144px;
+    height: 45px;
+    left: 279px;
+    top: 214px;
+    padding: 20px 102px;
+
+
+
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 45px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+
+}
+
+.menu {
+    /* Rectangle 10 */
+    position: absolute;
+    width: 100%;
+    height: 85px;
+    left: 0px;
+    top: 167px;
+    padding: 20px 200px;
+
+    /*   text-align: center;*/
+    background: #861010;
+}
+
+.mainBtn {
+    margin-left: 20%;
+}
+
+ul.menu a:hover {
+    background-color: #9b1313;
+
+}
+
+.text {
+    position: absolute;
+    width: 1306px;
+    height: 124px;
+    left: 67px;
+    top: 302px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #000000;
+
+}
+
+#cat1 {
+    position: absolute;
+    width: 331px;
+    height: 486px;
+    left: 67px;
+    top: 449px;
+
+    background: url(image.png);
+}
+
+#cat2 {
+    position: absolute;
+    width: 348px;
+    height: 486px;
+    left: 476px;
+    top: 449px;
+
+    background: url(image.png);
+
+}
+
+#cat3 {
+    position: absolute;
+    width: 471px;
+    height: 486px;
+    left: 902px;
+    top: 449px;
+
+    background: url(rene-peters-kD4AXcuvnTE-unsplash.jpg);
+}
+
+#cat4 {
+    position: absolute;
+    width: 814px;
+    height: 542.67px;
+    left: 67px;
+    top: 1013px;
+
+    background: url(image.png);
+}
+
+#cat5 {
+    position: absolute;
+    width: 362.31px;
+    height: 543px;
+    left: 1011px;
+    top: 1013px;
+
+    background: url(image.png);
+}
+
+
+.foot {
+    position: absolute;
+    width: 100%;
+    height: 73px;
+    left: 0px;
+    top: 1588px;
+
+    background: #861010;
+}
+
+#catFoot {
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+
+h6 {
+    position: absolute;
+    width: 320px;
+    height: 19px;
+    left: 137px;
+    top: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+}
