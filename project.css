@@ -1,13 +1,216 @@
 /* https://codepen.io/ni-kun/pen/jWKWom */
 /* general styles */
+/*обнуление стилей*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 100%;
+    width: 100px;
+    font-style: 100px;
+    line-height: 1;
+    font-style: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*ul li {
+    list-style: none;
+}*/
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*конец обнуления*/
+h1 {
+    position: absolute;
+    width: 188px;
+    height: 56px;
+    left: 159px;
+    top: 39px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+}
+
+h3 {
+    position: absolute;
+    width: 784px;
+    height: 38px;
+    left: 159px;
+    top: 102px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    /* identical to box height */
+}
+
+#cat {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.headd {
+    position: absolute;
+    width: 100%;
+    height: 167px;
+    left: 0px;
+    top: 0px;
+
+    background: #A20D0D;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+
+
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.menu li {
+    display: inline;
+    margin-right: -4px;
+
+
+}
+
+ul.menu a {
+    width: 144px;
+    height: 45px;
+    left: 279px;
+    top: 214px;
+    padding: 20px 102px;
+
+
+
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 38px;
+    line-height: 45px;
+    /* identical to box height */
+    color: #FFFFFF;
+
+
+}
+
+.menu {
+    /* Rectangle 10 */
+    position: absolute;
+    width: 100%;
+    height: 85px;
+    left: 0px;
+    top: 167px;
+    padding: 20px 200px;
+
+    /*   text-align: center;*/
+    background: #861010;
+}
+
+.mainBtn {
+    margin-left: 20%;
+}
+
+ul.menu a:hover {
+    background-color: #9b1313;
+
+}
+
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
 }
+
 label {
     font-weight: bold;
 }
+
 canvas {
     padding-left: 0;
     padding-right: 0;
@@ -15,12 +218,120 @@ canvas {
     margin-right: auto;
     display: block;
 }
+
 #container {
     margin-top: 50px;
     text-align: center;
 }
+
 /* stats */
 * {
     color: white;
-    background-color: black;
+    /*    background-color: black;*/
+}
+
+h2 {
+    position: absolute;
+    width: 383px;
+    height: 38px;
+    left: 67px;
+    top: 302px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+canvas {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: 67px;
+    top: 270px;
+    position: relative;
+
+
+    border: 3px solid black;
+    background-color: #ffffff;
+}
+
+#start {
+    position: absolute;
+    width: 102px;
+    height: 28px;
+    left: 607px;
+    top: 512px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+    border: 2px solid black;
+
+
+
+    color: #000000;
+
+}
+
+#clear {
+    position: absolute;
+    width: 110px;
+    height: 28px;
+    left: 607px;
+    top: 585px;
+    border: 2px solid black;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #000000;
+
+}
+
+.foot {
+    position: absolute;
+    width: 100%;
+    height: 74px;
+    left: 0px;
+    top: 810px;
+
+    background: #861010;
+}
+
+#catFoot {
+    margin-top: 20px;
+    margin-left: 80px;
+
+}
+
+h6 {
+    position: absolute;
+    width: 320px;
+    height: 19px;
+    left: 137px;
+    top: 45px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
 }
