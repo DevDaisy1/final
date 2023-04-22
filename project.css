@@ -248,15 +248,40 @@ h2 {
     color: #000000;
 }
 
+h2 {
+    position: absolute;
+    width: 383px;
+    height: 38px;
+    left: 67px;
+    top: 302px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+
+
+
+
+
+
 canvas {
     position: absolute;
     width: 500px;
     height: 500px;
     left: 67px;
-    top: 270px;
+    top: 370px;
     position: relative;
 
-
+    /*    outline: solid 5px rgb(34, 0, 0);
+    outline-offset: 10px;*/
     border: 3px solid black;
     background-color: #ffffff;
 }
@@ -301,12 +326,18 @@ canvas {
 
 }
 
+
+
+
+
+
+
 .foot {
     position: absolute;
     width: 100%;
     height: 74px;
     left: 0px;
-    top: 810px;
+    top: 910px;
 
     background: #861010;
 }
